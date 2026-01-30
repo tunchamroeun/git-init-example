@@ -1,4 +1,5 @@
 <script setup lang="ts">
+console.log('Better changed from local machine to make conflict with remote')
 const data = ref([
   {
     id: '4600',
