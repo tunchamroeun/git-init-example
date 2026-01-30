@@ -9,6 +9,12 @@
       <UButton to="/ravy">
         Ravy
       </UButton>
+
+      <UButton
+        to="/chamroeun"
+      >
+        Cham Roeun
+      </UButton>
     </div>
   </div>
 </template>
