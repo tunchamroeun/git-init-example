@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const toast = useToast()
 
-function showToast() {
+function showToastRavy() {
   const eventDate = new Date(Date.now() + Math.random() * 31536000000)
   const formattedDate = eventDate.toLocaleDateString('en-US', {
     month: 'short',
@@ -42,7 +42,7 @@ function showToast() {
       </UButton>
     </li>
     <li>
-      <UButton @click="showToast()">
+      <UButton @click="showToastRavy()">
         Show toast
       </UButton>
     </li>
