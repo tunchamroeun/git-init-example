@@ -4,10 +4,7 @@
       Hello my name is Samnang
     </h1>
     <HomeButton />
-    <UButton
-      class=""
-      to="/samnang/about"
-    >
+    <UButton class="" to="/samnang/about">
       About me
     </UButton>
     <UButton to="https://web.facebook.com/?_rdc=1&_rdr#">
